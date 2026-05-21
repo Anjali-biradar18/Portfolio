@@ -1,9 +1,12 @@
 import { useTheme } from "../context/ThemeContext";
+import jspLogo from "../assets/jsp.png";
+import codealphaLogo from "../assets/codealpha.png";
+
 
 const experiences = [
   {
     company: "CodeAlpha",
-    logo: "/codealpha.png",
+    logo: codealphaLogo,
     role: "Data Science Intern",
     period: "September 2025",
     details: [
@@ -15,7 +18,7 @@ const experiences = [
 
   {
     company: "JSpiders",
-    logo: "/jsp.png",
+    logo: jspLogo,
     role: "Java Full Stack Developer Intern",
     period: "January 2026 – Present",
     location: "Rajajinagar, Bengaluru, Karnataka, India",

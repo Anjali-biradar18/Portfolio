@@ -1,23 +1,26 @@
 import { useTheme } from "../context/ThemeContext";
+import vtuLogo from "../assets/vtu.png";
+import azadLogo from "../assets/azad.png";
+import schoolLogo from "../assets/ssvhs.png";
 
 const education = [
   {
     school: "Vishveshwarya Technological University (VTU)",
-    logo: "/vtu.png",
+  logo: vtuLogo,
     degree: "B.Tech in Computer Science",
     period: "2022 - 2026",
     grade: "8.22 CGPA",
   },
   {
     school: "Moulana Azad PU College, Bidar",
-    logo: "/azad.png",
+   logo: azadLogo,
     degree: "Pre-University",
     period: "2020 - 2022",
     grade: "68%",
   },
   {
     school: "Noor International Public School, Bidar",
-    logo: "/ssvhs.png",
+    logo: schoolLogo,
     degree: "SSLC",
     period: "2020",
     grade: "80%",

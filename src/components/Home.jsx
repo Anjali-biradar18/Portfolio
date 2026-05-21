@@ -1,4 +1,5 @@
 import { useTheme } from "../context/ThemeContext";
+import profileImg from "../assets/profile.png";
 
 const socialLinks = [
   {
@@ -225,12 +226,7 @@ export default function Home() {
                 : "bg-white/40 border-white/30"
             }`}
           >
-            <img
-              src="/profile.png"
-              alt="Profile"
-              className="rounded-[30px] object-cover
-              w-64 h-64 sm:w-80 sm:h-80 lg:w-[30rem] lg:h-[30rem]"
-            />
+           <img src={profileImg} />
           </div>
         </div>
       </div>
