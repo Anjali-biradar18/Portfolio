@@ -1,5 +1,6 @@
 import { useTheme } from "../context/ThemeContext";
 import profileImg from "../assets/profile.png";
+import resume from "../assets/resume.pdf";
 
 const socialLinks = [
   {
@@ -191,7 +192,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-5 mt-10">
             
             <a
-              href="/resume.pdf"
+             href={resume}
               target="_blank"
               rel="noopener noreferrer"
               className="px-7 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 text-white font-semibold shadow-2xl hover:scale-105 transition-all duration-300"
