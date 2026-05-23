@@ -9,7 +9,7 @@ const education = [
   logo: vtuLogo,
     degree: "B.Tech in Computer Science",
     period: "2022 - 2026",
-    grade: "8.22 CGPA",
+    grade: "8.6 CGPA",
   },
   {
     school: "Moulana Azad PU College, Bidar",
